@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  background-color: lightgray;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: blue;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0 8em;
+}
+
+.navbar ul li {
+  padding: 1em;
+}
+
+.formClass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formClass input {
+  padding: 1em;
+  width: 100%;
+  max-width: 550px;
+  margin-bottom: 0.4em;
+}
+
+.register,
+.login,
+.changePass,
+.home {
+  padding: 0 9em;
+  text-align: center;
+}
+
+.active {
+  background-color: coral;
+}
+
+.active a {
+  color: white;
+}
+
+ul li a:hover {
+  color: white !important;
+}
+
+.errorText {
+  color: red;
+}
+
+@media only screen and (max-width: 800px) {
+  .register,
+  .login,
+  .changePass,
+  .home {
+    padding: 0 3em;
+  }
+  .navbar ul {
+    padding: 0 2em;
+  }
+}
