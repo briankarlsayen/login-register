@@ -1,5 +1,5 @@
 # Login / Register
-### This project is a practice of login/register using mern-stack. 
+This project is a practice of login/register using mern-stack. 
 
 Password is encrypted using bycrypt. 
 
